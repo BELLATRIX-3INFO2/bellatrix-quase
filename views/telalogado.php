@@ -81,7 +81,7 @@ if (!isset($_SESSION["id"])) {
             <ul class="nav-menu">
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="#team">Sobre</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
                         <li><a href="cometa.php">Cometas</a></li>
@@ -110,40 +110,40 @@ if (!isset($_SESSION["id"])) {
     <div class="container">
         <div class="section-header">
 
-            <h3>Noticias</h3>
+            <h3>Notícias</h3>
 
         </div>
         <div class="col-xl-3 col-lg-1 col-md-3  project wow animated animated4 fadeInLeft">
             <div class="project-hover">
-                <h2>TITLE</h2>
+                <h2>Satélite Elisa</h2>
 
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-                <a href="#">See Project</a>
+                <a href="post.php">Ver mais</a>
             </div>
         </div>
         <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft ">
             <div class="project-hover">
-                <h2>TITLE</h2>
+                <h2>Ônibus pra Marte</h2>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-                <a href="#">See Project</a>
+                <a href="#">Ver mais</a>
             </div>
         </div>
         <div class="col-xl-3 col-lg-4 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
             <div class="project-hover">
-                <h2>TITLE</h2>
+                <h2>Nova Galáxia Descoberta</h2>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-                <a href="#">See Project</a>
+                <a href="#">Ver mais</a>
             </div>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
             <div class="project-hover">
-                <h2>TITLE</h2>
+                <h2>Foguete Nirvana</h2>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-                <a href="#">See Project</a>
+                <a href="#">Ver mais</a>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -154,8 +154,8 @@ if (!isset($_SESSION["id"])) {
         <br>
         <div class="section-header">
 
-            <h3>Eventos</h3>
-            <a href="listaeventos.php">Ver mais!</a>
+            <h3>Outras notícias</h3>
+            <a href="listaeventos.php"></a>
         </div>
 
         <div class="row" style="background-color: white;">
@@ -163,7 +163,7 @@ if (!isset($_SESSION["id"])) {
             <div class="col-lg-6">
                 <div class="box wow fadeInLeft">
                     <div class="icon"><i class="fa fa-rocket"></i></div>
-                    <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                    <h4 class="title"><a href="">Sonda Espcial BLACK-505</a></h4>
                     <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
                 </div>
             </div>
@@ -171,7 +171,7 @@ if (!isset($_SESSION["id"])) {
             <div class="col-lg-6">
                 <div class="box wow fadeInRight">
                     <div class="icon"><i class="fa fa-rocket"></i></div>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                    <h4 class="title"><a href="">Cometa Medusa</a></h4>
                     <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
                 </div>
             </div>
@@ -179,7 +179,7 @@ if (!isset($_SESSION["id"])) {
             <div class="col-lg-6">
                 <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="icon"><i class="fa fa-rocket"></i></div>
-                    <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                    <h4 class="title"><a href="">NASA e seus novos integrantes.</a></h4>
                     <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
                 </div>
             </div>
@@ -187,7 +187,7 @@ if (!isset($_SESSION["id"])) {
             <div class="col-lg-6">
                 <div class="box wow fadeInRight" data-wow-delay="0.2s">
                     <div class="icon"><i class="fa fa-rocket"></i></div>
-                    <h4 class="title"><a href="">Magni Dolores</a></h4>
+                    <h4 class="title"><a href="">Campeonato anual de foguetes</a></h4>
                     <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
                 </div>
             </div>
@@ -201,8 +201,49 @@ if (!isset($_SESSION["id"])) {
 <!--==========================
   Footer
 ============================-->
+<br> <br>
+<footer class="page-footer font-small teal pt-4" style="background-color:floralwhite; font-family: sans-serif; color: black;">
 
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
 
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase font-weight-bold" style="color: lightseagreen;">Objetivo do Projeto</h5>
+                <p>O objetivo desse projeto é trazer de forma dinâmica o conteúdo de astronomia para que não se torne algo monótono. Notíciais sempre atualizadas também estão na lista de como deixar o site atrativo. </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase font-weight-bold" style="color:lightseagreen">Por que Bellatrix?</h5>
+                <p>Bellatrix é a terceira estrela mais brilhante da constelação de Orion e a vigésima sétima mais brilhante do céu noturno. A escolha desse nome deu-se porque o grupo gosta muito da cor azul e também porque uma estrela é algo fenomenal.</p>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Instituto Federal Catarinense - Campus Araquari.
+    </div>
+    <!-- Copyright -->
+
+</footer>
 
 
 </body>

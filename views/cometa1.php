@@ -82,11 +82,11 @@ color: #50d8af;;
                             <ul>
                                 <li><a href="cometa.php">Cometas</a></li>
                             <li><a href="satelite.php">Satélites</a></li>
-                            <li><a href="sol.php">Estrelas</a></li>
-                            <li><a href="galaxiaAndro.php">Galáxias</a></li>
+                            <li><a href="estrela.php">Estrelas</a></li>
+                            <li><a href="galaxia.php">Galáxias</a></li>
                             <li><a href="nebulosa.php">Nebulosas</a></li>
                             <li><a href="historia.php">História</a></li>
-                            <li><a href="planetaTerra.php">Planetas</a></li>
+                            <li><a href="planetas.php">Planetas</a></li>
                             <li><a href="sistema.php">Sistema Solar</a></li>
                             </ul>
                         </li>
@@ -113,7 +113,6 @@ color: #50d8af;;
     <div class="well"> 
         <div class="row">
              <div class="col-md-12">
-                 <div class="row hidden-md hidden-lg"><h1 class="text-center" >TITULO LARGO DE UNA INVESTIGACION cualquiera</h1></div>
 
                    <!------- IMAGEM A SE COLOCAR ------>
                      

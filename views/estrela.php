@@ -112,7 +112,6 @@ color: #50d8af;;
     <div class="well"> 
         <div class="row">
              <div class="col-md-12">
-                 <div class="row hidden-md hidden-lg"><h1 class="text-center" >TITULO LARGO DE UNA INVESTIGACION cualquiera</h1></div>
 
                    <!------- IMAGEM A SE COLOCAR ------>
 
@@ -134,8 +133,7 @@ color: #50d8af;;
                             O que são Estrelas? &emsp; <a href="estrela1.php" target="_blank"><span class="glyphicon glyphicon-new-window">
                             </span></a>
                         </h2>
-                        <p>
-                           Lorem impsum sit dolor amet.</p>
+
                         <hr />
                        
                     </div>
@@ -180,8 +178,7 @@ color: #50d8af;;
                             Estrela Cadente  &emsp; <a href="cadente.php" target="_blank"><span class="glyphicon glyphicon-new-window">
                             </span></a>
                         </h2>
-                        <p>
-                           Lorem impsum sit dolor amet.</p>
+
                         <hr />
                        
                     </div>

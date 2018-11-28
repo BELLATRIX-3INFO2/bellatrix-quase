@@ -8,6 +8,8 @@ if (!isset($_SESSION["id"])) {
 <html>
 <head>
 
+    <meta charset="utf-8">
+    <title>Bellatrix</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -39,7 +41,7 @@ if (!isset($_SESSION["id"])) {
             <ul class="nav-menu">
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="#team">Sobre</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
                         <li><a href="cometaHalley.php">Cometas</a></li>
@@ -61,20 +63,24 @@ if (!isset($_SESSION["id"])) {
 </header><!-- #header -->
 <body>
 
-
+<br>
 <div class="container">
     <div class="row">
 
         <section class="content">
-            <h1>Table Filter</h1>
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
+
                     <div class="panel-body">
+                        <div class="pull-left" style="margin-top: 20px;">
+                            <h3>Eventos</h3>
+                        </div>
                         <div class="pull-right">
+
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-filter" data-target="pagado">Pagado</button>
-                                <button type="button" class="btn btn-warning btn-filter" data-target="pendiente">Pendiente</button>
-                                <button type="button" class="btn btn-danger btn-filter" data-target="cancelado">Cancelado</button>
+                                <button type="button" class="btn btn-success btn-filter" data-target="pagado">Em breve</button>
+                                <button type="button" class="btn btn-warning btn-filter" data-target="pendiente">Acontecendo</button>
+                                <button type="button" class="btn btn-danger btn-filter" data-target="cancelado">Já foi</button>
                                 <button type="button" class="btn btn-default btn-filter" data-target="all">Todos</button>
                             </div>
                         </div>
@@ -83,28 +89,24 @@ if (!isset($_SESSION["id"])) {
                                 <tbody>
                                     <tr data-status="pagado">
                                         <td>
-                                            <div class="ckbox">
-                                                <input type="checkbox" id="checkbox1">
-                                                <label for="checkbox1"></label>
-                                            </div>
+
                                         </td>
                                         <td>
                                             <a href="javascript:;" class="star">
-                                                <i class="glyphicon glyphicon-star"></i>
                                             </a>
                                         </td>
                                         <td>
                                             <div class="media">
                                                 <a href="#" class="pull-left">
-                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                                                    <img src="" class="media-photo">
                                                 </a>
                                                 <div class="media-body">
-                                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                                    <span class="media-meta pull-right">30/01/2019</span>
                                                     <h4 class="title">
-                                                        Lorem Impsum
-                                                        <span class="pull-right pagado">(Pagado)</span>
+                                                        Excursão pra marte
+                                                        <span class="pull-right pagado">(Em breve)</span>
                                                     </h4>
-                                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                                    <p class="summary">Excursão saindo de Joinville, passando por Florianópolis, parando em Curitiba, seguindo para o Rio de Janeiro com destino final em Marte!</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -112,111 +114,98 @@ if (!isset($_SESSION["id"])) {
                                     <tr data-status="pendiente">
                                         <td>
                                             <div class="ckbox">
-                                                <input type="checkbox" id="checkbox3">
-                                                <label for="checkbox3"></label>
+
                                             </div>
                                         </td>
                                         <td>
                                             <a href="javascript:;" class="star">
-                                                <i class="glyphicon glyphicon-star"></i>
                                             </a>
                                         </td>
                                         <td>
                                             <div class="media">
                                                 <a href="#" class="pull-left">
-                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                                                    <img src="" class="media-photo">
                                                 </a>
                                                 <div class="media-body">
-                                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                                    <span class="media-meta pull-right">28/11/2018</span>
                                                     <h4 class="title">
-                                                        Lorem Impsum
-                                                        <span class="pull-right pendiente">(Pendiente)</span>
+                                                        Asteróide Banca Final se aproxima do IFC-Campus Araquari
+                                                        <span class="pull-right pendiente">(Acontecendo)</span>
                                                     </h4>
-                                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                                    <p class="summary">Acontece hoje a chegada do asteróide Banca Final, para a equipe de astronautas 3info2. A central de comando Bellatrix está acompnhando sua chegada.</p>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr data-status="cancelado">
                                         <td>
-                                            <div class="ckbox">
-                                                <input type="checkbox" id="checkbox2">
-                                                <label for="checkbox2"></label>
-                                            </div>
+
                                         </td>
                                         <td>
                                             <a href="javascript:;" class="star">
-                                                <i class="glyphicon glyphicon-star"></i>
+
                                             </a>
                                         </td>
                                         <td>
                                             <div class="media">
                                                 <a href="#" class="pull-left">
-                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                                                    <img src="" class="media-photo">
                                                 </a>
                                                 <div class="media-body">
-                                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                                    <span class="media-meta pull-right">18/03/2018</span>
                                                     <h4 class="title">
-                                                        Lorem Impsum
-                                                        <span class="pull-right cancelado">(Cancelado)</span>
+                                                        Eclipse Lunar
+                                                        <span class="pull-right cancelado">(Já foi)</span>
                                                     </h4>
-                                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                                    <p class="summary">O eclipse lunar é hoje! Chama os amigos, a família e até o cachorro. Bora assistir essa belezura!</p>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr data-status="pagado" class="selected">
                                         <td>
-                                            <div class="ckbox">
-                                                <input type="checkbox" id="checkbox4" checked>
-                                                <label for="checkbox4"></label>
-                                            </div>
+
                                         </td>
                                         <td>
                                             <a href="javascript:;" class="star star-checked">
-                                                <i class="glyphicon glyphicon-star"></i>
                                             </a>
                                         </td>
                                         <td>
                                             <div class="media">
                                                 <a href="#" class="pull-left">
-                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                                                    <img src="" class="media-photo">
                                                 </a>
                                                 <div class="media-body">
-                                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                                    <span class="media-meta pull-right">02/01/2019</span>
                                                     <h4 class="title">
-                                                        Lorem Impsum
-                                                        <span class="pull-right pagado">(Pagado)</span>
+                                                        O encontro de Vênus com a Lua
+                                                        <span class="pull-right pagado">(Em breve)</span>
                                                     </h4>
-                                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                                    <p class="summary">Como um par romântico, Vênus e a Lua irão se alinhar!</p>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr data-status="pendiente">
                                         <td>
-                                            <div class="ckbox">
-                                                <input type="checkbox" id="checkbox5">
-                                                <label for="checkbox5"></label>
-                                            </div>
+
                                         </td>
                                         <td>
                                             <a href="javascript:;" class="star">
-                                                <i class="glyphicon glyphicon-star"></i>
                                             </a>
                                         </td>
                                         <td>
                                             <div class="media">
                                                 <a href="#" class="pull-left">
-                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                                                    <img src="" class="media-photo">
                                                 </a>
                                                 <div class="media-body">
-                                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                                    <span class="media-meta pull-right">28/11/2018</span>
                                                     <h4 class="title">
-                                                        Lorem Impsum
-                                                        <span class="pull-right pendiente">(Pendiente)</span>
+                                                        Chuva de meteoritos Ursídeas
+                                                        <span class="pull-right pendiente">(Acontecendo)</span>
                                                     </h4>
-                                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                                    <p class="summary">A chuva está acontecendo! Os meteoros que formam a chuva vem das constelações Ursa maior e Ursa menor, infelizmente elas não acostumam aparecer no Brasil. Mas,você já ouviu falar sobre essas constelações? </p>
                                                 </div>
                                             </div>
                                         </td>
@@ -226,16 +215,14 @@ if (!isset($_SESSION["id"])) {
                         </div>
                     </div>
                 </div>
-                <div class="content-footer">
-                    <p>
-                        Page © - 2016 <br>
-                        Powered By <a href="https://www.facebook.com/tavo.qiqe.lucero" target="_blank">TavoQiqe</a>
-                    </p>
-                </div>
+
             </div>
+
         </section>
-        
+
     </div>
-</div>
+
+
+
 </body>
 </html>

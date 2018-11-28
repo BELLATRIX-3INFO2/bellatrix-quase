@@ -46,7 +46,7 @@
     <div class="row main">
         <div class="panel-heading">
             <div class="panel-title text-center">
-                <h1 class="title">Login</h1>
+                <h2 class="title">Login</h2>
                 <hr />
             </div>
         </div>
@@ -75,7 +75,7 @@
                     <button id="button" class="btn btn-lg btn-primary btn-block" type="submit" href="2index.php" name="entrar">Logar</button>
                 </div>
                 <div class="login-register">
-                    <a class="cancell" href="cadastro.php" style="font-size: 30px">Ou cadastre-se aqui! </a>
+                    <a class="cancell" href="cadastro.php" style="font-size: 12px; color: blue">Ou cadastre-se aqui! </a>
                 </div>
             </form>
         </div>

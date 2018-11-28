@@ -76,7 +76,7 @@
             <ul class="nav-menu">
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="#team">Sobre</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
                         <li><a href="cometa.php">Cometas</a></li>
@@ -102,10 +102,11 @@
 
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-<div class="content">
-    <div class="container" style="background-color: white;">
+<div class="content" style="opacity: 0.9">
+    <div class="container" style="background-color: white; height: 580px; width: 2000px;">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb40 text-center">
+                <br>
                 <h1 class="page-title">Bellatrix</h1>
                 <p>Olá viajante, aqui estão as nossas redes sociais. Se tiver alguma sugestão ou crítica, contate-nos!</p>
                 <!-- /.section-title -->
@@ -215,7 +216,7 @@
 ============================-->
 
 <!-- Footer -->
-<footer class="page-footer font-small teal pt-4" style="background-color: black;">
+<footer class="page-footer font-small teal pt-4" style="background-color:floralwhite; font-family: sans-serif; color: black;">
 
     <!-- Footer Text -->
     <div class="container-fluid text-center text-md-left">
@@ -227,8 +228,8 @@
         <div class="col-md-6 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?</p>
+          <h5 class="text-uppercase font-weight-bold" style="color: lightseagreen;">Objetivo do Projeto</h5>
+          <p>O objetivo desse projeto é trazer de forma dinâmica o conteúdo de astronomia para que não se torne algo monótono. Notíciais sempre atualizadas também estão na lista de como deixar o site atrativo. </p>
 
         </div>
         <!-- Grid column -->
@@ -239,8 +240,8 @@
         <div class="col-md-6 mb-md-0 mb-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi hic.</p>
+          <h5 class="text-uppercase font-weight-bold" style="color:lightseagreen">Por que Bellatrix?</h5>
+          <p>Bellatrix é a terceira estrela mais brilhante da constelação de Orion e a vigésima sétima mais brilhante do céu noturno. A escolha desse nome deu-se porque o grupo gosta muito da cor azul e também porque uma estrela é algo fenomenal.</p>
 
         </div>
         <!-- Grid column -->
@@ -252,8 +253,7 @@
     <!-- Footer Text -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3">Instituto Federal Catarinense - Campus Araquari.
     </div>
     <!-- Copyright -->
 

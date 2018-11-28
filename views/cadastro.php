@@ -23,6 +23,12 @@
 
         <title>Bellatrix</title>
     </head>
+    <style>
+
+        body{
+            background-image: url("img/fundoinicial.gif");
+        }
+    </style>
     <body>
 
          <header id="header">
@@ -48,15 +54,15 @@
              <?php endif; ?>
              </div>
   </header><!-- #header -->
-        <div class="container">
+        <div class="container" style="margin-top: -50px;">
             <div class="row main">
                 <div class="panel-heading">
                    <div class="panel-title text-center">
-                        <h1 class="title">Cadastro</h1>
+                        <h2 class="title">Cadastro</h2>
                         <hr />
                     </div>
                 </div> 
-                <div class="main-login main-center">
+                <div class="main-login main-center" style="height: 455px;">
                     <form class="form-horizontal" action="../controlador/usuario.php?acao=inserir"  method="post">
 
                         <div class="form-group">
@@ -100,7 +106,7 @@
                             <button class="btn btn-primary btn-lg btn-block login-button" type="submit" href="../controlador/usuario.php?acao=inserir" name="gravar">Cadastrar</button>
                         </div>
                         <div class="login-register">
-                            <a class="cancell" href="index.php">Cancelar </a>
+                            <a class="cancell" href="index.php" style="color:blue">Cancelar </a>
                          </div>
                     </form>
                 </div>

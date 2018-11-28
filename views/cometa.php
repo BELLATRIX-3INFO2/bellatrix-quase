@@ -81,7 +81,7 @@ color: #50d8af;;
                             <ul>
                             <li><a href="cometa.php">Cometas</a></li>
                             <li><a href="satelite.php">Satélites</a></li>
-                            <li><a href="sol.php">Estrelas</a></li>
+                            <li><a href="estrela.php">Estrelas</a></li>
                             <li><a href="galaxia.php">Galáxias</a></li>
                             <li><a href="nebulosa.php">Nebulosas</a></li>
                             <li><a href="historia.php">História</a></li>
@@ -112,7 +112,6 @@ color: #50d8af;;
     <div class="well"> 
         <div class="row">
              <div class="col-md-12">
-                 <div class="row hidden-md hidden-lg"><h1 class="text-center" >TITULO LARGO DE UNA INVESTIGACION cualquiera</h1></div>
 
 
 
@@ -137,8 +136,7 @@ color: #50d8af;;
                             O que é um cometa?  &emsp; <a href="cometa1.php" target="_blank"><span class="glyphicon glyphicon-new-window">
                             </span></a>
                         </h2>
-                        <p>
-                           Lorem impsum sit dolor amet.</p>
+
                         <hr />
                        
                     </div>
@@ -160,8 +158,7 @@ color: #50d8af;;
                             Cometa Halley  &emsp; <a href="cometaHalley.php" target="_blank"><span class="glyphicon glyphicon-new-window">
                             </span></a>
                         </h2>
-                        <p>
-                           Lorem impsum sit dolor amet.</p>
+
                         <hr />
                        
                     </div>

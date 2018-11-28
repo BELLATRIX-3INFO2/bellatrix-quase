@@ -76,7 +76,7 @@ color: #50d8af;;
             <ul class="nav-menu">
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="#team">Sobre</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                         <li class="menu-has-children"><a href="">Categorias</a>
                             <ul>
                                 <li><a href="#">Cometas</a></li>
@@ -111,16 +111,16 @@ color: #50d8af;;
 
                    <!------- IMAGEM A SE COLOCAR ------>
                      
-                 <div class="pull-left col-md-4 col-xs-12 thumb-contenido"><img class="center-block img-responsive" src='http://placehold.it/500x500' /></div>
+                 <div class="pull-left col-md-4 col-xs-12 thumb-contenido"><img class="center-block img-responsive" src='img/satelite.jpg' /></div>
 
               
 
 
                  <div class="">
-                     <h1  class="hidden-xs">Título vai aqui</h1>
+                     <h1  class="hidden-xs">Satélite Elisa</h1>
                      <hr>
                     
-                     <small class="verde"><strong>Nome do autor vai aqui </strong></small>
+                     <small class="verde"><strong>Projeto Bellatrix </strong></small>
                      <hr>
                      <p class="text-justify">Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. 
                  Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh.

@@ -113,7 +113,6 @@ color: #50d8af;;
     <div class="well"> 
         <div class="row">
              <div class="col-md-12">
-                 <div class="row hidden-md hidden-lg"><h1 class="text-center" >TITULO LARGO DE UNA INVESTIGACION cualquiera</h1></div>
 
                    <!------- IMAGEM A SE COLOCAR ------>
                      

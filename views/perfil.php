@@ -12,6 +12,8 @@ if (!isset($_SESSION["id"])) {
 <!------ Include the above in your HEAD tag ---------->
 
 <head>
+    <meta charset="utf-8">
+    <title>Bellatrix</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -23,11 +25,11 @@ if (!isset($_SESSION["id"])) {
 </head>
 
 <body class="profile-page" >
-<nav class="navbar fixed-top  navbar-expand-lg "  color-on-scroll="100"  id="sectionsNav">
+<nav class="navbar fixed-top  navbar-expand-lg "  id="sectionsNav">
    <div class="container">
 
         <div id="logo" class="pull-left">
-            <h1><a href="telalogado.php" class="scrollto">Bellatrix</h1>
+            <h1>Bellatrix</h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
         </div>
@@ -36,7 +38,7 @@ if (!isset($_SESSION["id"])) {
             <ul class="nav-menu">
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="#team">Sobre</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
                         <li><a href="cometa.php">Cometas</a></li>
@@ -121,8 +123,47 @@ if (!isset($_SESSION["id"])) {
     </div>
 </div>
 
-<footer class="footer text-center ">
-   
+<footer class="page-footer font-small teal pt-4" style="background-color:floralwhite; font-family: sans-serif; color: black;">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase font-weight-bold" style="color: lightseagreen;">Objetivo do Projeto</h5>
+                <p>O objetivo desse projeto é trazer de forma dinâmica o conteúdo de astronomia para que não se torne algo monótono. Notíciais sempre atualizadas também estão na lista de como deixar o site atrativo. </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase font-weight-bold" style="color:lightseagreen">Por que Bellatrix?</h5>
+                <p>Bellatrix é a terceira estrela mais brilhante da constelação de Orion e a vigésima sétima mais brilhante do céu noturno. A escolha desse nome deu-se porque o grupo gosta muito da cor azul e também porque uma estrela é algo fenomenal.</p>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Instituto Federal Catarinense - Campus Araquari.
+    </div>
+    <!-- Copyright -->
+
 </footer>
 
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
