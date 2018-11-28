@@ -18,49 +18,41 @@ if (!isset($_SESSION["id"])) {
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
     <link rel="stylesgeet" href="https://rawgit.com/creativetimofficial/material-kit/master/assets/css/material-kit.css">
     <link rel="stylesheet" href="css/perfil_usuario.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/perfil_usuario.js"></script>
 </head>
 
 <body class="profile-page" >
-<nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg "  color-on-scroll="100"  id="sectionsNav">
-    <div class="container">
-        <div class="navbar-translate">
-            <a class="navbar-brand" href="telalogado.php">Bellatrix </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar fixed-top  navbar-expand-lg "  color-on-scroll="100"  id="sectionsNav">
+   <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1><a href="telalogado.php" class="scrollto">Bellatrix</h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
         </div>
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="dropdown nav-item">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
-                        <i class="material-icons">apps</i> Configurações
-                    </a>
-                    <div class="dropdown-menu dropdown-with-icons">
-                        <a href="editar_perfil.php" class="dropdown-item">
-                            <i class="material-icons">layers</i> Editar
-                        </a>
-
-                        <a href="excluir_perfil.php" class="dropdown-item">
-                            <i class="material-icons">layers</i> Excluir conta
-                        </a>
-
-                        <a href="index.php" class="dropdown-item">
-                            <i class="material-icons">content_paste</i> Sair
-                        </a>
-                    </div>
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu"><a href="telalogado.php">Inicio</a></li>
+                <li><a href="listaeventos.php">Eventos</a></li>
+                <li><a href="#team">Sobre</a></li>
+                <li class="menu-has-children"><a href="">Categorias</a>
+                    <ul>
+                        <li><a href="cometa.php">Cometas</a></li>
+                        <li><a href="satelite.php">Satélites</a></li>
+                        <li><a href="estrela.php">Estrelas</a></li>
+                        <li><a href="galaxia.php">Galáxias</a></li>
+                        <li><a href="nebulosa.php">Nebulosas</a></li>
+                        <li><a href="historia.php">História</a></li>
+                        <li><a href="planetas.php">Planetas</a></li>
+                        <li><a href="sistema.php">Sistema Solar</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="telalogado.php">
-                        <i class="material-icons"></i> Site
-                    </a>
-                </li>
-
+                <li><a href="../controlador/usuario.php?acao=logout">Logout</a></li>
+                <li><a href="perfil.php">Perfil</a></li>
             </ul>
-        </div>
+        </nav><!-- #nav-menu-container -->
     </div>
 </nav>
 
