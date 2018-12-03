@@ -159,25 +159,7 @@ color: #50d8af;;
 
                  <hr>
 
-                 <strong class="verde"> Insira um comentário </strong>
-
-                 <br>
-                 <br>
-
-                      <div class="col-md-20">
-           
-           
-                    <div class="container-fluid well span8">
-    
-           
-           
-            <div class="panel panel-default">
-                <div class="panel-body">                
-                    <form accept-charset="UTF-8" action="" method="POST">
-                        <textarea class="form-control counted" name="message" placeholder="Digite uma mensagem" rows="5" style="margin-bottom:10px;"></textarea>
-                    
-                        <button class="btn btn-info" type="submit">Comentar</button>
-                    </form>
+                
                 </div>
             </div>
         </div>
