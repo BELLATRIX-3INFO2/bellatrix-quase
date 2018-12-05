@@ -1,9 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION["id"])) {
-    header("location: permissao.php");
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,18 +96,20 @@ color: #50d8af;;
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="css/post.css" rel="stylesheet">
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container">
     <div class="well"> 
         <div class="row">
              <div class="col-md-12">
-                 <div class="row hidden-md hidden-lg"><h1 class="text-center" >TITULO LARGO DE UNA INVESTIGACION cualquiera</h1></div>
+                 <div class="row hidden-md hidden-lg"><h1 class="text-center" ></h1></div>
 
                    <!------- IMAGEM A SE COLOCAR ------>
-                     
-                 <div class="pull-left col-md-4 col-xs-12 thumb-contenido"><img class="center-block img-responsive" src='img/satelite.jpg' /></div>
 
+                 <div class="banner">
+                    <img src="../img/nasa.jpg">
+                 </div>
               
 
 
@@ -159,9 +156,39 @@ color: #50d8af;;
 
                  <hr>
 
-                
-                </div>
+                 <a  class="btn btn-success" href="editar_noticia.php" role="button">Editar</a>                  <a  class="btn btn-danger" role="button" href="#deletar">Deletar</a>
+
+
+             </div>
+            <div class="col-md-10 clear"><hr><h3>Deixe seu Comentario</h3>
             </div>
+
+
+            <div class="col-md-10">
+
+
+
+
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form accept-charset="UTF-8" action="" method="POST">
+                                <textarea class="form-control counted" name="message" placeholder="Digite uma mensagem" rows="5" style="margin-bottom:10px;"></textarea>
+                                <h6 class="pull-right" id="counter">320 characters remaining</h6>
+                                <button class="btn btn-info" type="submit">Comentar</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </div>
+
+
+            </div>
+
         </div>
     </div>  
 
@@ -173,13 +200,5 @@ color: #50d8af;;
 
 
 </body>
-<script>
-    $(document).ready(function(){
-        $("#alo").click(function(){
-            $("#cartao").toggle();
 
-        });
-    });
-
-</script>
 </html>
